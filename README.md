@@ -9,7 +9,7 @@ Advanced Kotiln
 - Custom annotation
 - Scope functions apply, also, let, run, with
 - yaml (map. list config.)
-- coroutins (concourent , async)
+- coroutines (Concurrency and Asynchronous Programming)
 - hash, digest, ciper tech.
 - Predicate
 - File, Path Hierachhies
