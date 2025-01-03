@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1045109871986",
+    "project_id": "kotlinstudy-c4463",
+    "storage_bucket": "kotlinstudy-c4463.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045109871986:android:77e022a05d2603c777f9eb",
+        "android_client_info": {
+          "package_name": "com.crevolika.firebasestudy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASamXm1CUp7T_jglczfIcH_el4tWjJKfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

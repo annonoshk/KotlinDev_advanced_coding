@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186e0554-ea1b-411b-9c3c-64c11af08a11" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/delegation/ClassDelegation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/delegation/ClassDelegation2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fireStore/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/delegation/Delegation9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/delegation/Delegation9.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,16 +52,41 @@
   "keyToString": {
     "Gradle.Build KotlinDev_coding_test_execise.executor": "Run",
     "Kotlin.BaseExampleKt.executor": "Run",
+    "Kotlin.ClassDelegationKt.executor": "Run",
+    "Kotlin.Delegation9Kt.executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "F:/Codes/Private/Languages/Kotlin/KotlinDev_coding_test_execise",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Codes\Private\Languages\Kotlin\KotlinDev_coding_test_execise\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.ClassDelegationKt">
+    <configuration name="ClassDelegationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="delegation.ClassDelegationKt" />
+      <module name="KotlinAdvanced.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Delegation9Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="delegation.Delegation9Kt" />
+      <module name="KotlinAdvanced.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="KotlinDev_coding_test_execise" />
       <method v="2">
@@ -138,6 +172,12 @@
       <option name="studyTest" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.ClassDelegationKt" />
+        <item itemvalue="Kotlin.Delegation9Kt" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -160,6 +200,7 @@
       <updated>1735551426360</updated>
       <workItem from="1735551427304" duration="5000" />
       <workItem from="1735656580399" duration="286000" />
+      <workItem from="1735876079999" duration="5100000" />
     </task>
     <servers />
   </component>

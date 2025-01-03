@@ -1,9 +1,7 @@
 package delegation
 /*
  * Attaching a counting delegate on one, two... go!
-Medium
-383
-23 hours ago
+
 You are given an interface (ICounter) and a class (Counter) that implements this interface. Your task is to complete the Iterator class that uses the Counter class as a delegate to keep track of how many times a function next() is invoked.
 
 The function next() doesn't need to implement anything beyond what's already provided by the delegate.
@@ -44,18 +42,25 @@ class Iterator(counter: ICounter): ICounter by counter {
 // Do not change the code below
 
 fun main() {
-    val a = readln().toInt()
+    while(true) {
 
-    // Set initial value to counter
-    val counter = Counter(a)
+        val a = readln()
+        if(a == "stop") break
 
-    // Create iterator
-    val it = Iterator(counter)
+        val b = a.toInt()
 
-    // Do some test iterations
-    for (i in 1..5) {
-        it.next()
+
+        // Set initial value to counter
+        val counter = Counter(b)
+
+        // Create iterator
+        val it = Iterator(counter)
+
+        // Do some test iterations
+        for (i in 1..5) {
+            it.next()
+        }
+
+        println(it.getCurrentCount())
     }
-
-    println(it.getCurrentCount())
 }
