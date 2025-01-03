@@ -9,7 +9,10 @@ class MyImplementation : MyInterface {
     override fun print() { println(msg) }
     override var msg: String = "To be, or not to be, that is the question:"
 
-    fun updateMsg(newMsg: String) { msg = newMsg }
+    fun updateMsg(newMsg: String) {
+        if(newMsg != "")
+            msg = newMsg
+    }
 }
 
 class CharacterInfoFormatter(base: MyInterface) : MyInterface by base {
