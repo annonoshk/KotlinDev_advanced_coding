@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186e0554-ea1b-411b-9c3c-64c11af08a11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/delegation/ClassDelegation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/delegation/ClassDelegation2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fireStore/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/delegation/Delegation9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/delegation/Delegation9.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/compare/Comparable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/compare/Comparable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/compare/Comparator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/compare/Comparator.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,37 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinAdvanced" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinAdvanced" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinAdvanced" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="sqldelight" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,31 +78,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build KotlinDev_coding_test_execise.executor": "Run",
-    "Kotlin.BaseExampleKt.executor": "Run",
-    "Kotlin.ClassDelegationKt.executor": "Run",
-    "Kotlin.Delegation9Kt.executor": "Run",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "F:/Codes/Private/Languages/Kotlin/KotlinDev_coding_test_execise",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build KotlinDev_coding_test_execise.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.KotlinDev_coding_test_execise [generateMainDatabaseInterface].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.KotlinDev_coding_test_execise [generateSqlDelightInterface].executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.BaseExampleKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ClassDelegationKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Delegation9Kt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Codes/Private/Languages/Kotlin/KotlinDev_coding_test_execise&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Codes\Private\Languages\Kotlin\KotlinDev_coding_test_execise\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ClassDelegationKt">
+  <component name="RunManager" selected="Gradle.KotlinDev_coding_test_execise [generateSqlDelightInterface]">
+    <configuration name="KotlinDev_coding_test_execise [generateMainDatabaseInterface]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generateMainDatabaseInterface" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="KotlinDev_coding_test_execise [generateSqlDelightInterface]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generateSqlDelightInterface" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="ClassDelegationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="delegation.ClassDelegationKt" />
       <module name="KotlinAdvanced.main" />
@@ -174,6 +250,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.KotlinDev_coding_test_execise [generateSqlDelightInterface]" />
+        <item itemvalue="Gradle.KotlinDev_coding_test_execise [generateMainDatabaseInterface]" />
         <item itemvalue="Kotlin.ClassDelegationKt" />
         <item itemvalue="Kotlin.Delegation9Kt" />
       </list>
@@ -201,6 +279,9 @@
       <workItem from="1735551427304" duration="5000" />
       <workItem from="1735656580399" duration="286000" />
       <workItem from="1735876079999" duration="5100000" />
+      <workItem from="1735972223445" duration="101000" />
+      <workItem from="1735978255576" duration="1321000" />
+      <workItem from="1736011468042" duration="153000" />
     </task>
     <servers />
   </component>

@@ -9,6 +9,29 @@ data class Student(val name: String, val grade: Int) : Comparable<Student> {
 data class Person(val name: String, val age: Int)
 
 fun main() {
+
+
+    val testList = mutableListOf(
+        mutableListOf("a", "b", "c", "d", "e", "f", "g"),
+        mutableListOf("h", "i", "j", "k", "l", "m", "n"),
+        mutableListOf("o", "p", "q"),
+        mutableListOf("r", "s", "t", "u", "v"),
+        mutableListOf("w"),
+        mutableListOf("x", "y"),
+        mutableListOf("z")
+    )
+
+    val white = listOf(
+        testList[1][1], // i
+        testList[3][2], // t
+        testList[0][4], // e
+        testList[4][0], // w
+        testList[1][0]  // h
+    )
+
+    println(white.joinToString(""))
+
+
     val people = listOf(
         Person("John", 25),
         Person("Sarah", 30),
