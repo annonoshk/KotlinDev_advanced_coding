@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186e0554-ea1b-411b-9c3c-64c11af08a11" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/compare/Comparable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/compare/Comparable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/compare/Comparator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/compare/Comparator.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +35,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="KotlinAdvanced" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="KotlinAdvanced" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="sqldelight" type="c8890929:TasksNode$1" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -78,27 +71,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build KotlinDev_coding_test_execise.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KotlinDev_coding_test_execise [generateMainDatabaseInterface].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KotlinDev_coding_test_execise [generateSqlDelightInterface].executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.BaseExampleKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ClassDelegationKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Delegation9Kt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Codes/Private/Languages/Kotlin/KotlinDev_coding_test_execise&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build KotlinDev_coding_test_execise.executor": "Run",
+    "Gradle.KotlinDev_coding_test_execise [generateMainDatabaseInterface].executor": "Run",
+    "Gradle.KotlinDev_coding_test_execise [generateSqlDelightInterface].executor": "Run",
+    "Kotlin.BaseExampleKt.executor": "Run",
+    "Kotlin.ClassDelegationKt.executor": "Run",
+    "Kotlin.Delegation9Kt.executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/Codes/Private/Languages/Kotlin/KotlinDev_coding_test_execise",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Codes\Private\Languages\Kotlin\KotlinDev_coding_test_execise\src" />
@@ -261,7 +258,6 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
       </set>
     </attachedChunks>
   </component>
@@ -282,6 +278,7 @@
       <workItem from="1735972223445" duration="101000" />
       <workItem from="1735978255576" duration="1321000" />
       <workItem from="1736011468042" duration="153000" />
+      <workItem from="1736269345519" duration="218000" />
     </task>
     <servers />
   </component>
