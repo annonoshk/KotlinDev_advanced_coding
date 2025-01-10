@@ -30,6 +30,9 @@ dependencies {
     testImplementation(kotlin("test"))
 
     implementation("io.insert-koin:koin-core:$koin_version")
+
+    implementation("org.jetbrains.kotlin:kotlin-reflect:2.1.0")
+
 }
 
 
