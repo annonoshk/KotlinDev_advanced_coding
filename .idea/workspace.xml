@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186e0554-ea1b-411b-9c3c-64c11af08a11" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +79,7 @@
     "Kotlin.BaseExampleKt.executor": "Run",
     "Kotlin.ClassDelegationKt.executor": "Run",
     "Kotlin.Delegation9Kt.executor": "Run",
+    "Kotlin.Main.executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -92,7 +93,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -101,7 +102,7 @@
       <recent name="F:\Codes\Private\Languages\Kotlin\KotlinDev_coding_test_execise\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.KotlinDev_coding_test_execise [generateSqlDelightInterface]">
+  <component name="RunManager" selected="Kotlin.Main">
     <configuration name="KotlinDev_coding_test_execise [generateMainDatabaseInterface]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -155,6 +156,13 @@
     </configuration>
     <configuration name="Delegation9Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="delegation.Delegation9Kt" />
+      <module name="KotlinAdvanced.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logger.Main" />
       <module name="KotlinAdvanced.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -247,12 +255,40 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Main" />
         <item itemvalue="Gradle.KotlinDev_coding_test_execise [generateSqlDelightInterface]" />
         <item itemvalue="Gradle.KotlinDev_coding_test_execise [generateMainDatabaseInterface]" />
         <item itemvalue="Kotlin.ClassDelegationKt" />
         <item itemvalue="Kotlin.Delegation9Kt" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ScriptDefinitionSettings">
+    <option name="settings">
+      <list>
+        <ScriptDefinitionSetting>
+          <option name="definitionId" value="org.jetbrains.kotlin.mainKts.MainKtsScript" />
+        </ScriptDefinitionSetting>
+        <ScriptDefinitionSetting>
+          <option name="definitionId" value="org.gradle.kotlin.dsl.KotlinInitScript" />
+        </ScriptDefinitionSetting>
+        <ScriptDefinitionSetting>
+          <option name="definitionId" value="org.gradle.kotlin.dsl.KotlinSettingsScript" />
+        </ScriptDefinitionSetting>
+        <ScriptDefinitionSetting>
+          <option name="definitionId" value="org.gradle.kotlin.dsl.KotlinBuildScript" />
+        </ScriptDefinitionSetting>
+        <ScriptDefinitionSetting>
+          <option name="definitionId" value="kotlin.Any" />
+        </ScriptDefinitionSetting>
+        <ScriptDefinitionSetting>
+          <option name="definitionId" value="kotlin.Any" />
+        </ScriptDefinitionSetting>
+        <ScriptDefinitionSetting>
+          <option name="definitionId" value="kotlin.Any" />
+        </ScriptDefinitionSetting>
+      </list>
+    </option>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -279,10 +315,16 @@
       <workItem from="1735978255576" duration="1321000" />
       <workItem from="1736011468042" duration="153000" />
       <workItem from="1736269345519" duration="218000" />
+      <workItem from="1736532771487" duration="164000" />
+      <workItem from="1736577975986" duration="276000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

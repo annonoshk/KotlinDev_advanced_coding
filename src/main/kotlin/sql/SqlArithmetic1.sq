@@ -1,0 +1,4 @@
+package sql
+
+SELECT 'Hello world' ;
+

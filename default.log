@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-01-11T06:54:49.366422400Z</date>
+  <millis>1736578489366</millis>
+  <nanos>422400</nanos>
+  <sequence>0</sequence>
+  <logger>logger.Main</logger>
+  <level>INFO</level>
+  <class>logger.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Info log message</message>
+</record>
+</log>

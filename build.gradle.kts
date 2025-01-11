@@ -32,7 +32,8 @@ dependencies {
     implementation("io.insert-koin:koin-core:$koin_version")
 
     implementation("org.jetbrains.kotlin:kotlin-reflect:2.1.0")
-
+    implementation("org.jetbrains.kotlinx:kotlinx-cli:0.3.6")
+    implementation ("ch.qos.logback:logback-classic:1.5.16")
 }
 
 
@@ -58,6 +59,4 @@ sqldelight {
         }
     }
 }
-
-
 
