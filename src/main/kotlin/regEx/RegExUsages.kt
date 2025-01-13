@@ -36,5 +36,5 @@ fun main() {
 
     // coding test
     val regExTest = Regex("""([a-z0-9_\.-]+)@([a-z0-9_\.-]+)\.([a-z\.]{2,6})""")
-    val result = regExTest.findAll("([a-z0-9_\.-]+)\.")
+  //  val result = regExTest.findAll("([a-z0-9_\.-]+)\.")
 }
