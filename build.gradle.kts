@@ -3,6 +3,7 @@ plugins {
     application
     // SQLDelight Plugin
     id("app.cash.sqldelight") version "2.0.2"
+    id("org.jetbrains.kotlin.plugin.serialization") version "2.0.21"
 }
 
 group = "org.crevolika"
@@ -34,6 +35,14 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect:2.1.0")
     implementation("org.jetbrains.kotlinx:kotlinx-cli:0.3.6")
     implementation ("ch.qos.logback:logback-classic:1.5.16")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0")
+
+    // Add the dependency for the Realtime Database library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    // implementation("com.google.firebase:firebase-database-ktx")
+    // Add moshi for Json
+    implementation("com.squareup.moshi:moshi-kotlin:1.15.2")
+    implementation("io.github.khubaibkhan4:mediaplayer-kmp:2.0.5")
 }
 
 
