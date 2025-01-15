@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.0.21"
+    kotlin("jvm") version "2.1.0"
     application
     // SQLDelight Plugin
     id("app.cash.sqldelight") version "2.0.2"
@@ -43,6 +43,7 @@ dependencies {
     // Add moshi for Json
     implementation("com.squareup.moshi:moshi-kotlin:1.15.2")
     implementation("io.github.khubaibkhan4:mediaplayer-kmp:2.0.5")
+    implementation ("io.github.microutils:kotlin-logging-jvm:3.0.4")
 }
 
 
