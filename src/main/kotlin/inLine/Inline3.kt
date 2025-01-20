@@ -21,4 +21,4 @@ fun calculateAreaWithoutInline(width: Int, height: Int): Int {
     return width * height
 }
 
-inline fun calculateAreaWithInline(width: Int, height: Int): Int = width * height
+//inline fun calculateAreaWithInline(width: Int, height: Int): Int = width * height

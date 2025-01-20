@@ -44,6 +44,7 @@ dependencies {
     implementation("com.squareup.moshi:moshi-kotlin:1.15.2")
     implementation("io.github.khubaibkhan4:mediaplayer-kmp:2.0.5")
     implementation ("io.github.microutils:kotlin-logging-jvm:3.0.4")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
 }
 
 

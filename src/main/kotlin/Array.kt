@@ -1,6 +1,16 @@
 // If a person's height is less than 145cm or more than 210cm
 
 
+
+fun main() {
+    val a = readLine()!!.toInt()
+    val b = readLine()!!.toInt()
+    val sum = (a..b).sum()
+    println(sum)
+}
+
+
+/*
 fun countSum(sweets: Map<String, Int>): Int {
     return sweets.values.iterator().asSequence().sum()
 }
@@ -15,7 +25,7 @@ fun main() {
         cart[sweet] = price.toInt()
     }
     println(countSum(cart)) // do not change this line
-}
+}*/
 /*
 
 fun main() {
