@@ -14,6 +14,9 @@ You need to output either YES or NO.
 
 Sample Input 1:
  */
+
+val hello = "Hello world"
+
 fun main() {
     val n = readLine()!!.toInt()
     val numbers = mutableSetOf<Int>()
@@ -26,5 +29,13 @@ fun main() {
     } else {
         println("NO")
     }
+
+    println(hello.substring(5, 11))
+
+    println(hello.substring(6))
+
+    println(hello.replace("Hello ", ""))
+
+    println(hello.substringAfter('w'))
 }
 

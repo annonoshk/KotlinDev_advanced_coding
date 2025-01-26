@@ -45,6 +45,9 @@ dependencies {
     implementation("io.github.khubaibkhan4:mediaplayer-kmp:2.0.5")
     implementation ("io.github.microutils:kotlin-logging-jvm:3.0.4")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
+    implementation("com.squareup.retrofit2:retrofit:(insert latest version)")
+    implementation("com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:1.0.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0")
 }
 
 
