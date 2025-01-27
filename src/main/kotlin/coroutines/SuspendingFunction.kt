@@ -1,11 +1,11 @@
 package coroutines
 
 fun loadFile(): ByteArray {
-    return ... // long operation, actual code skipped for brevity
+    return " ".toByteArray() // ... // long operation, actual code skipped for brevity
 }
 
 fun calculateChecksum(fileData: ByteArray): String {
-    return ... // another long operation, actual code skipped for brevity
+    return " "//... // another long operation, actual code skipped for brevity
 }
 
 fun main() {

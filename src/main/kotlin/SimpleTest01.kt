@@ -1,6 +1,3 @@
-
-
-
 /*
  * Number in a set
 Write a program that checks if a set of N numbers contains a number M.
@@ -14,6 +11,7 @@ You need to output either YES or NO.
 
 Sample Input 1:
  */
+/*
 
 val hello = "Hello world"
 
@@ -38,4 +36,30 @@ fun main() {
 
     println(hello.substringAfter('w'))
 }
+*/
+/*
+ * List of names
+You have a list of names of your students. Please return the first student name that starts with "j" and ends with "e".
 
+Sample Input 1:
+
+john jane joe jill pack
+ */
+//Input String
+/*
+fun main() {
+    val list = readln().split(" ")
+    // write your code here
+    val res = list.filter { it.startsWith('j') && it.endsWith('e') }.firstOrNull()
+
+    println(res)
+}
+*/
+
+fun main() {
+    println(convertToString(5))
+}
+
+fun convertToString(obj: Any): String {
+    return obj as String
+}

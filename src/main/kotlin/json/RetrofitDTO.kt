@@ -1,6 +1,7 @@
 package json
 
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
+import io.ktor.client.statement.*
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
@@ -101,6 +102,8 @@ interface RetroFitRest {
         @Part filePart: MultipartBody.Part,
         @Part("description") description: RequestBody
     ): Response<UploadDto>
+
+    fun post(s: String, function: () -> Unit): HttpResponse
 }
 
 
