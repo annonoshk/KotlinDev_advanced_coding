@@ -2,11 +2,11 @@ package currying
 
 /*
  * Currying addition
-Write a function named add(), applying the principles of currying. The function should accept two integer inputs and return an integer as output - the sum of the two inputs. Demonstrate how to define and call this function in Kotlin, where the function call is divided into two calls, each with one of the arguments.
+Write a function named add(), applying the principles of currying. The function should accept two integer inputs and return an integer as output - the lambdaExpression.getSum of the two inputs. Demonstrate how to define and call this function in Kotlin, where the function call is divided into two calls, each with one of the arguments.
 
-For example, using the defined add() function, the sum of 5 and 3 should be performed as follows:
+For example, using the defined add() function, the lambdaExpression.getSum of 5 and 3 should be performed as follows:
 
-val sum = add(5)(3) // returns 8
+val lambdaExpression.getSum = add(5)(3) // returns 8
 
 Sample Input 1:
 

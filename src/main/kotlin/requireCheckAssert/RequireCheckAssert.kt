@@ -2,7 +2,7 @@ package requireCheckAssert
 
 /*
 Androids list
-Luke Skywalker has a function that accepts as parameters a list of android objects that have an id (Int) and an energy value (Int) as properties, and we want to calculate the total sum of energy following: fun calculateTotalEnergy(androids: List<Android>): Int . We have the following restrictions:
+Luke Skywalker has a function that accepts as parameters a list of android objects that have an id (Int) and an energy value (Int) as properties, and we want to calculate the total lambdaExpression.getSum of energy following: fun calculateTotalEnergy(androids: List<Android>): Int . We have the following restrictions:
 
 If the list is empty, we will get an exception of type IllegalArgumentException with the message: "List of androids cannot be empty".
 If an android has energy less than zero, we will return the exception IllegalStateException with the message: "Android energy must be greater than or equal to zero".

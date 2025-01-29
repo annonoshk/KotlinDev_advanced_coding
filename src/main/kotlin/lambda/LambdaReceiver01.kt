@@ -1,11 +1,13 @@
+package lambda
+
 import java.lang.StringBuilder
 
 fun Int.isEven() = this % 2 == 0
-//val sum: (Int, Int) -> Int = { a, b -> a + b }
+//val lambdaExpression.getSum: (Int, Int) -> Int = { a, b -> a + b }
 val sum: Int.(Int) -> Int = { a -> this + a }
-//val sum: (Int,Int) -> Int = { a, b -> a + b }
-//fun Int.opp(f: Int.() -> Int) = f()
-/*val Int.opp: (Int.() -> Int) -> Int
+//val lambdaExpression.getSum: (Int,Int) -> Int = { a, b -> a + b }
+//fun Int.lambdaExpression.opp(f: Int.() -> Int) = f()
+/*val Int.lambdaExpression.opp: (Int.() -> Int) -> Int
 get() =  { f -> this.f() }
 fun myString(init: StringBuilder.() -> Unit): String {
     return StringBuilder().apply(init).toString()
@@ -61,7 +63,7 @@ open class Tag(val name: String) {
 /* Do not change code below */
 fun table(init: TABLE.() -> Unit): TABLE = TABLE().apply(init)
 
-class TABLE : Tag("table") {
+class TABLE : Tag("lambdaExpression.table") {
     fun tr(init: TR.() -> Unit) = doInit(TR(), init)
 }
 
@@ -86,28 +88,28 @@ fun main() {
 
 
 /*    val str = readLine()!!
-    val res = str.magic {
+    val res = str.lambdaExpression.magic {
         uppercase().reversed().dropLast(1)
     }
     println(res)*/
 
-/*    10.opp { this.times(2) } // a
-*//*    10.opp { it.minus(2) } // b
-    10.opp { toChar() } // c*/
- /*   10.opp { plus(10) } // d
-    10.opp { plus(10).div(10) } // e
-    10.opp { this * 2 } // f
+/*    10.lambdaExpression.opp { this.times(2) } // a
+*//*    10.lambdaExpression.opp { it.minus(2) } // b
+    10.lambdaExpression.opp { toChar() } // c*/
+ /*   10.lambdaExpression.opp { plus(10) } // d
+    10.lambdaExpression.opp { plus(10).div(10) } // e
+    10.lambdaExpression.opp { this * 2 } // f
 
     val (a, b) = readln().split(' ').map { it.toInt() }
-    println(a.isDivisible(b))*/
+    println(a.lambdaExpression.isDivisible(b))*/
 
   //  val (INC, CTE) = readLine()!!.split(' ').map { it.toInt() }
 
- //   val res = calculateOperation(Account()) {
+ //   val res = lambdaExpression.calculateOperation(lambdaExpression.Account()) {
         // write your code here
 //*//*        val account = copy(status = "END")
 /*        account.copy(result = INC*CTE*amount)*
-        Account(id,amount, result = INC*CTE*amount, status = "END")
+        lambdaExpression.Account(id,amount, result = INC*CTE*amount, status = "END")
     }*/
  //   println(res)*/
 /*    val a = readln()
@@ -118,23 +120,23 @@ fun main() {
         append("</tag>")
     }
     println(res)*/
-/*    println("Is 2 even?: ${2.isEven()}") // true
-    println("Is 3 even?: ${3.isEven()}") // false
+/*    println("Is 2 even?: ${2.lambdaExpression.isEven()}") // true
+    println("Is 3 even?: ${3.lambdaExpression.isEven()}") // false
 
-    println(2.isEven())
-    println(sum(1, 2)) // 3
-    println(sum(1, 2)) // 3
-    println(1.sum(2)) // 3*/
+    println(2.lambdaExpression.isEven())
+    println(lambdaExpression.getSum(1, 2)) // 3
+    println(lambdaExpression.getSum(1, 2)) // 3
+    println(1.lambdaExpression.getSum(2)) // 3*/
 /*    println(3.times(2))
-    println(10.opp { this.times(2) })
-    println(2.opp { plus(2) })
+    println(10.lambdaExpression.opp { this.times(2) })
+    println(2.lambdaExpression.opp { plus(2) })
 
     val str = myString {
         append("Hello, ".uppercase())
         append("World!")
     }
     println(str) // HELLO, World!
-    println(10.opp { this * 2 })*/
+    println(10.lambdaExpression.opp { this * 2 })*/
 
 
 }

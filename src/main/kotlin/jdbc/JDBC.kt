@@ -29,7 +29,7 @@ object DatabaseManager : AutoCloseable {
 data class User(val id: Int, val name: String)
 
 fun createTable() {
-    val sql = """CREATE TABLE IF NOT EXISTS users (id INT PRIMARY KEY, name VARCHAR(100))"""
+    val sql = """CREATE lambdaExpression.TABLE IF NOT EXISTS users (id INT PRIMARY KEY, name VARCHAR(100))"""
     DatabaseManager.open().use { conn ->
         conn.prepareStatement(sql).use {
             it.executeUpdate()

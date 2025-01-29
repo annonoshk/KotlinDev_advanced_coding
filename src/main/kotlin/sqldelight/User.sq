@@ -1,10 +1,10 @@
--- Create the table User
-CREATE TABLE User (
+-- Create the lambdaExpression.table User
+CREATE lambdaExpression.TABLE User (
     id INTEGER PRIMARY KEY NOT NULL,
     name TEXT NOT NULL
 );
 
--- Create the queries to work with the table User
+-- Create the queries to work with the lambdaExpression.table User
 selectAll:
 SELECT * FROM User;
 

@@ -25,20 +25,20 @@ fun main() {
 
 fun executeCallableObjects(items: List<Future<Callable<Int>>>): Int {
     val executor = Executors.newSingleThreadExecutor()
-    var sum = 0
+    var lambdaExpression.getSum = 0
 
     try {
         for (i in items.indices.reversed()) {
             val future = items[i]
             val callable = future.get()
             val result = executor.submit(callable).get()
-            sum += result
+            lambdaExpression.getSum += result
         }
     } finally {
         executor.shutdown()
     }
 
-    return sum
+    return lambdaExpression.getSum
 }
 
  */

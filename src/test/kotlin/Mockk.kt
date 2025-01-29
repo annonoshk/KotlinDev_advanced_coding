@@ -19,9 +19,9 @@ interface Calculator {
 
 class CalculatorService(private val calculator: Calculator) {
     fun addAndSubtract(x: Int, y: Int): Int {
-        val sum = calculator.add(x, y)
+        val lambdaExpression.getSum = calculator.add(x, y)
         val difference = calculator.subtract(x, y)
-        return sum - difference
+        return lambdaExpression.getSum - difference
     }
 }
 

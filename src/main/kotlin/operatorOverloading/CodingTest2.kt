@@ -2,7 +2,7 @@ package operatorOverloading
 /*
  * Hacking the Matrix
 
-Neo is trying to hack the Matrix. He has a list of codes, and to solve this challenge, he must invoke the list and return the sum of the elements that are divisible by a certain code. For example:
+Neo is trying to hack the Matrix. He has a list of codes, and to solve this challenge, he must invoke the list and return the lambdaExpression.getSum of the elements that are divisible by a certain code. For example:
 
 val listOfInt = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 println(listOfInt(5))

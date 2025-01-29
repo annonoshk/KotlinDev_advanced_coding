@@ -1,4 +1,4 @@
-package lambdaExpression
+package lambda
 /*
  * Filter long strings
 Write a function named filterLongStrings that takes a list of strings as input and returns a new list containing only the strings that have a length greater than or equal to a given length.

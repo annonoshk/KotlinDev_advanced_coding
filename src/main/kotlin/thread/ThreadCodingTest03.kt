@@ -2,13 +2,13 @@ package thread
 
 /*
  * Summing ranges with threads
-The following code is supposed to find the general sum of two inclusive integer ranges in parallel.
+The following code is supposed to find the general lambdaExpression.getSum of two inclusive integer ranges in parallel.
 Unfortunately, this code doesn't work correctly.
 Try and fix it. Read the comments for a better understanding.
 
 Additional explanations: the implemented class RangeSummator extends Thread and overrides the method run.
 It sums the range passed to the constructor (left and right limits as integers).
-The class has a field result that returns the calculated sum or 0 if the thread has not calculated the sum yet.
+The class has a field result that returns the calculated lambdaExpression.getSum or 0 if the thread has not calculated the lambdaExpression.getSum yet.
 
 Sample Input 1:
 
@@ -53,7 +53,7 @@ fun main() {
 
     val partialSum1 = summator1.result
     val partialSum2 = summator2.result
-    val sum = partialSum1 + partialSum2 // the sum is 0, fix it!
+    val sum = partialSum1 + partialSum2 // the lambdaExpression.getSum is 0, fix it!
     println(sum)
 }
 

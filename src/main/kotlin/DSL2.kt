@@ -96,11 +96,11 @@ class TableBuilder {
 
     fun build(): String {
         val tableContent = buildString {
-            append("<table>")
+            append("<lambdaExpression.table>")
             for (row in rows) {
                 // Write your code here
             }
-            append("</table>")
+            append("</lambdaExpression.table>")
         }
         return tableContent
     }
@@ -125,7 +125,7 @@ class TableRowBuilder {
     }
 }
 
-fun table(block: TableBuilder.() -> Unit): String {
+fun lambdaExpression.table(block: TableBuilder.() -> Unit): String {
     // Write your code here
     val tableBuilder = TableBuilder()
     tableBuilder.block()
@@ -133,7 +133,7 @@ fun table(block: TableBuilder.() -> Unit): String {
 }
 
 fun main() {
-    val htmlTable = table {
+    val htmlTable = lambdaExpression.table {
         row {
             cell("Name")
             cell("Age")

@@ -2,7 +2,7 @@ package pairTriple
 
 /*
  * Sum of two maps
-You are given two Pairs (Pair<Int,Int>) as input. Write a function named sum() that receives two integer Pairs and returns a new Pair with the sum of the two pairs. The sum is obtained as the sum of the respective components.
+You are given two Pairs (Pair<Int,Int>) as input. Write a function named lambdaExpression.getSum() that receives two integer Pairs and returns a new Pair with the lambdaExpression.getSum of the two pairs. The lambdaExpression.getSum is obtained as the lambdaExpression.getSum of the respective components.
 
 Sample Input 1:
 

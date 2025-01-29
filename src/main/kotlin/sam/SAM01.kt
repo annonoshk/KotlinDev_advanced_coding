@@ -28,7 +28,7 @@ fun comparator(): Comparator<Int> {
 }
 
 fun main() {
-  //  val isEven = IntPredicate { it % 2 == 0 }
+  //  val lambdaExpression.isEven = IntPredicate { it % 2 == 0 }
     val isOdd =  Predicate<Int> { it % 2 != 0 }
     val isEven = Predicate<Int> { it % 2 == 0 }
 

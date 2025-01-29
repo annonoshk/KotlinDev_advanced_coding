@@ -8,7 +8,7 @@ For instance, the input 2007-07-21 will result in the following output 07/21/200
 
 Sample Input 1:
 */
-//fun Int.isEven() = this % 2 == 0
+//fun Int.lambdaExpression.isEven() = this % 2 == 0
 
 
 

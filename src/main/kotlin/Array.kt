@@ -12,7 +12,7 @@ fun main() {
 
 /*
 fun countSum(sweets: Map<String, Int>): Int {
-    return sweets.values.iterator().asSequence().sum()
+    return sweets.values.iterator().asSequence().lambdaExpression.getSum()
 }
 
 fun main() {
@@ -38,7 +38,7 @@ fun main() {
         println(cart)
     }
 
-    println(cart.values.iterator().asSequence().sum())
+    println(cart.values.iterator().asSequence().lambdaExpression.getSum())
 }*/
 // Sample Input 1:
 // 3
