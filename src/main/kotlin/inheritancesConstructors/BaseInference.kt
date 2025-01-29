@@ -1,4 +1,4 @@
-package InheritancesConstructors.kt
+package inheritancesConstructors
 
 open class Base1(val id: Int = 1, val length: Float = 1.3f, val message: String = "Huck")
 

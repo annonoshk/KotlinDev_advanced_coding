@@ -1,4 +1,4 @@
-package Files
+package files
 
 import java.nio.file.Paths
 import kotlin.io.path.*

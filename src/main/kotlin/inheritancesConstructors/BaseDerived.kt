@@ -1,4 +1,4 @@
-package InheritancesConstructors.ktopen
+package inheritancesConstructors
 /*
 open class Base1(val beta: Int, val gamma: Int, var message: String = "") {
     constructor(beta: Int, message: String = "") : this(beta, 0, message)

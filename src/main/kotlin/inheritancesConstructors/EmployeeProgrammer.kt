@@ -1,4 +1,4 @@
-package InheritancesConstructors.kt
+package inheritancesConstructors
 
 
 

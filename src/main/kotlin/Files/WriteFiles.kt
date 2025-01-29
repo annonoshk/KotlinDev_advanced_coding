@@ -1,10 +1,10 @@
-package Files
+package files
 
 import java.io.File
 import kotlin.io.path.Path
 
-val seperator = File.separator // ${seperator}
-val workingDirectory = System.getProperty ("user.dir")
+val seperator: String = File.separator // ${seperator}
+val workingDirectory: String = System.getProperty ("user.dir")
 val absolutePath = "${workingDirectory}${seperator}src${seperator}main${seperator}kotlin${seperator}Files${seperator}"
 
 val textFile = Path("${absolutePath}textFile.txt") // path to the file
@@ -19,7 +19,7 @@ fun main() {
     File(fileName).writeText("1\n")
     File(fileName).writeText("2")
     File(fileName).appendText("3")
-  
+
     val arrayOfBytes = byteArrayOf(1, 2, 3) // create an array
     // another way:
     // val arrayOfBytes = mutableListOf<Byte>(1, 2, 3).toByteArray()
