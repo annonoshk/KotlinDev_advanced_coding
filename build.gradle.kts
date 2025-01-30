@@ -55,6 +55,7 @@ dependencies {
     implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion") // JSON
     implementation("io.ktor:ktor-client-auth:$ktorVersion")
     implementation("io.ktor:ktor-client-websockets:$ktorVersion")
+    implementation("org.jetbrains.kotlinx:atomicfu:0.27.0")
 
 }
 tasks.test {
