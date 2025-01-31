@@ -1,4 +1,4 @@
-package sqldelight
+package db.sqldelight
 
 /*
 // Create a SqlDriver

@@ -2,8 +2,9 @@ plugins {
     kotlin("jvm") version "2.1.0"
     application
     // SQLDelight Plugin
+    //kotlin("plugin.serialization") version "2.1.0"
     id("app.cash.sqldelight") version "2.0.2"
-    id("org.jetbrains.kotlin.plugin.serialization") version "2.0.21"
+    id("org.jetbrains.kotlin.plugin.serialization") version "2.1.10"
 }
 
 group = "org.crevolika"
@@ -30,6 +31,8 @@ dependencies {
     /*    implementation("com.google.firebase:firebase-firestore-ktx:24.7.0")
     implementation("androidx.core:core-ktx:1.10.1")*/
     implementation("app.cash.sqldelight:sqlite-driver:2.0.2")
+    implementation("app.cash.sqldelight:async-extensions:2.0.2")
+    implementation("app.cash.sqldelight:coroutines-extensions:2.0.2")
     testImplementation(kotlin("test"))
 
     implementation("io.insert-koin:koin-core:$koinVersion")
@@ -58,6 +61,8 @@ dependencies {
     implementation("io.ktor:ktor-client-websockets:$ktorVersion")
     implementation("org.jetbrains.kotlinx:atomicfu:0.27.0")
     implementation("io.github.reactivecircus.cache4k:cache4k:0.14.0")
+    // MongoDB Kotlin driver dependency
+    implementation("org.mongodb:mongodb-driver-kotlin-coroutine:5.3.1")
     testImplementation(kotlin("test"))
 
 }

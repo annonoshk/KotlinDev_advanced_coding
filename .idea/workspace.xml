@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186e0554-ea1b-411b-9c3c-64c11af08a11" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/default.log" beforeDir="false" afterPath="$PROJECT_DIR$/default.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/cache4k/EvictionModes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/cache4k/EvictionModes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/rtdb/RTDB.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sql/SqlArithmetic1.sq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sql/test.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sqldelight/SqlDelight.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sqldelight/User.sq" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +38,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="KotlinAdvanced" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinAdvanced" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -77,18 +88,20 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Gradle.Build KotlinDev_advanced_coding.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Build KotlinDev_coding_test_execise.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.KotlinDev_coding_test_execise [generateMainDatabaseInterface].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.KotlinDev_coding_test_execise [generateSqlDelightInterface].executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.BaseExampleKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.ClassDelegationKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.Delegation9Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.EventOnCacheKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Codes/Private/Languages/Kotlin/KotlinDev_coding_test_execise&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Codes/Private/Languages/Kotlin/KotlinDev_coding_test_execise2/KotlinDev_advanced_coding&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -106,7 +119,7 @@
       <recent name="F:\Codes\Private\Languages\Kotlin\KotlinDev_coding_test_execise\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Main">
+  <component name="RunManager" selected="Kotlin.EventOnCacheKt">
     <configuration name="KotlinDev_coding_test_execise [generateMainDatabaseInterface]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,8 +171,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Delegation9Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="delegation.Delegation9Kt" />
+    <configuration name="EventOnCacheKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cache4k.EventOnCacheKt" />
       <module name="KotlinAdvanced.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -259,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.EventOnCacheKt" />
         <item itemvalue="Kotlin.Main" />
         <item itemvalue="Gradle.KotlinDev_coding_test_execise [generateSqlDelightInterface]" />
         <item itemvalue="Gradle.KotlinDev_coding_test_execise [generateMainDatabaseInterface]" />
         <item itemvalue="Kotlin.ClassDelegationKt" />
-        <item itemvalue="Kotlin.Delegation9Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +310,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-jdk-9823dce3aa75-28390b856d98-intellij.indexing.shared.core-IU-251.18673.35" />
       </set>
     </attachedChunks>
   </component>
@@ -323,6 +336,8 @@
       <workItem from="1736577975986" duration="276000" />
       <workItem from="1736616140365" duration="288000" />
       <workItem from="1736684010788" duration="67000" />
+      <workItem from="1738315378388" duration="687000" />
+      <workItem from="1738323094237" duration="577000" />
     </task>
     <servers />
   </component>

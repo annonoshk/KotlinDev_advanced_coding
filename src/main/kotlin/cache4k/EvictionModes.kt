@@ -30,7 +30,7 @@ val cacheWithSizeAndTimeBasedEviction = Cache.Builder<Int, Person>()
     .expireAfterWrite(1.hours)
     .build()
 
-fun main() {
+suspend fun main() {
     val cache = Cache.Builder<Int, Person>().build()
 
     // write to cache
@@ -45,5 +45,25 @@ fun main() {
     // Overwrite existing entry
     cache.put(1, Person(1, "John", 21))
     cache.get(1)?.let { println(it) } ?: run { println("Not found") }
+
+    val entries = cache.asMap()
+    entries.forEach { (key, value) -> println("$key -> $value") }
+    // 1 -> Person(id=1, name=John, age=21)
+    // 2 -> Person(id=2, name=Jane, age=30)
+    // 3 -> Person(id=3, name=Mary, age=40)
     // Person(id=1, name=John, age=21)
+    // using a suspend function to retrieve async data
+    cache.get(4) { retrieveAsyncPerson(4) }.also { println(it) }
+    // Person(id=4, name=Async person, age=20)
+
+    // Invalidate by key
+    cache.invalidate(1)
+    cache.get(1)?.let { println(it) } ?: run { println("Not found") }
+    cache.put(1, Person(1,"Huck Kim",49))
+    cache.get(1)?.let {println(it)} ?: run {println("Not found")}
+    // Not found
+}
+
+fun retrieveAsyncPerson(i: Int): Person {
+    return Person(1,"Huck",49)
 }
