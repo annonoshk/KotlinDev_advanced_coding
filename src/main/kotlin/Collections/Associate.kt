@@ -1,4 +1,4 @@
-package Collections
+package collections
 
 /*
  * The secret code?

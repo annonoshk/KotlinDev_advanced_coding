@@ -1,4 +1,4 @@
-package nullCollection
+package collections
 
 val list = listOf<String>()
 
@@ -28,7 +28,7 @@ fun main() {
 
     val set = setOf<Int?>(null)
     println(set)
-    println(set.isNullOrEmpty())
+    println(set.isEmpty())
     println("$num, $num1")
     println(list.randomOrNull()) // returns some element
     println(list1.randomOrNull()) // null because the collection is empty

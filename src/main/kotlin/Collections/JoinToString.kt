@@ -1,4 +1,4 @@
-package Collections
+package collections
 
 /*
  * List of students
@@ -24,6 +24,6 @@ fun main() {
         truncated = "*") {"${it.key}->${it.value}"}
     println(result)
 
-    
+
 
 }

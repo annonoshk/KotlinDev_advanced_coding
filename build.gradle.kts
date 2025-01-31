@@ -15,6 +15,7 @@ repositories {
 }
 
 dependencies {
+   // implementation("androidx.constraintlayout:constraintlayout-core:1.1.0")
     val koinVersion = "4.0.1"
     val ktorClientVersion = "3.0.3"
     val ktorVersion = "3.0.3"
@@ -44,7 +45,7 @@ dependencies {
     // Add moshi for Json
     implementation("com.squareup.moshi:moshi-kotlin:1.15.2")
     implementation("io.github.khubaibkhan4:mediaplayer-kmp:2.0.5")
-    implementation ("io.github.microutils:kotlin-logging-jvm:3.0.4")
+    implementation("io.github.microutils:kotlin-logging-jvm:3.0.4")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
     implementation("com.squareup.retrofit2:retrofit:(insert latest version)")
     implementation("com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:1.0.0")
@@ -56,6 +57,8 @@ dependencies {
     implementation("io.ktor:ktor-client-auth:$ktorVersion")
     implementation("io.ktor:ktor-client-websockets:$ktorVersion")
     implementation("org.jetbrains.kotlinx:atomicfu:0.27.0")
+    implementation("io.github.reactivecircus.cache4k:cache4k:0.14.0")
+    testImplementation(kotlin("test"))
 
 }
 tasks.test {

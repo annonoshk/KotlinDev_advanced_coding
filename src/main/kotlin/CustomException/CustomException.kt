@@ -1,4 +1,4 @@
-package Files.CustomException
+package customException
 class LessThanZero: Exception("Parameter less than zero")
 
 class GreaterThanTen: Exception("Parameter greater than ten")

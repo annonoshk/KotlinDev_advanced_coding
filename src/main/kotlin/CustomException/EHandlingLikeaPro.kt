@@ -1,4 +1,4 @@
-package Files.CustomExceptionfun
+package customExceptionfun
 
 fun main() {
     while (true) {

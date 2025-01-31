@@ -1,4 +1,4 @@
-package Overrides.kt
+package overrides.kt
 
 
 fun getFurnitureInfo(furniture: Furniture): String {
