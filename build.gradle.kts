@@ -64,6 +64,11 @@ dependencies {
     // MongoDB Kotlin driver dependency
     implementation("org.mongodb:mongodb-driver-kotlin-coroutine:5.3.1")
     testImplementation(kotlin("test"))
+    implementation("org.jetbrains.kotlinx:kotlinx-html:0.12.0")
+    implementation("org.jetbrains.kotlin-wrappers:kotlin-css:2025.1.11")
+    implementation("io.ktor:ktor-server-core:3.0.3") // Update to the latest version
+    implementation("io.ktor:ktor-server-netty:3.0.3") // Update to the latest version
+    implementation("io.ktor:ktor-server-websockets:3.0.3") // Update to the latest version
 
 }
 tasks.test {
