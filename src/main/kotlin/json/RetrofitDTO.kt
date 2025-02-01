@@ -6,6 +6,7 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType
+import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.MultipartBody
 import okhttp3.RequestBody
 import retrofit2.Response
@@ -109,7 +110,7 @@ interface RetroFitRest {
 
 object ApiRest {
     private const val API_URL = "https://reqres.in/"
-    private val contentType = MediaType.get("application/json")
+    private val contentType = "application/json".toMediaType()
 
     val client = Retrofit.Builder()
         .baseUrl(API_URL) // API base URL

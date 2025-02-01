@@ -69,6 +69,7 @@ dependencies {
     implementation("io.ktor:ktor-server-core:3.0.3") // Update to the latest version
     implementation("io.ktor:ktor-server-netty:3.0.3") // Update to the latest version
     implementation("io.ktor:ktor-server-websockets:3.0.3") // Update to the latest version
+    implementation("com.squareup.okhttp3:okhttp:5.0.0-alpha.14")
 
 }
 tasks.test {
