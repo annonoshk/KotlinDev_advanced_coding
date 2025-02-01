@@ -9,7 +9,7 @@ object DatabaseManager : AutoCloseable {
     private var connection: Connection? = null
     private val url = "jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;"
     private val user = "sa"
-    private val password = ""
+    val password = ""
 
     fun open(): Connection {
         try { connection = DriverManager.getConnection(url, user, password)
