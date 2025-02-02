@@ -5,6 +5,7 @@ plugins {
     //kotlin("plugin.serialization") version "2.1.0"
     id("app.cash.sqldelight") version "2.0.2"
     id("org.jetbrains.kotlin.plugin.serialization") version "2.1.10"
+    id("org.jetbrains.dokka") version "2.0.0"
 }
 
 group = "org.crevolika"
@@ -103,3 +104,8 @@ sqldelight {
     }
 }
 
+buildscript {
+    dependencies {
+        classpath("org.jetbrains.dokka:dokka-base:2.0.0")
+    }
+}
