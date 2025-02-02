@@ -70,6 +70,14 @@ dependencies {
     implementation("io.ktor:ktor-server-netty:3.0.3") // Update to the latest version
     implementation("io.ktor:ktor-server-websockets:3.0.3") // Update to the latest version
     implementation("com.squareup.okhttp3:okhttp:5.0.0-alpha.14")
+    // Include Exposed core libraries
+    // Use the latest version
+    implementation("org.jetbrains.exposed:exposed-core:0.58.0")
+    implementation("org.jetbrains.exposed:exposed-dao:0.58.0")
+    implementation("org.jetbrains.exposed:exposed-jdbc:0.58.0")
+
+    // Include the database driver you need, for example, H2
+    implementation("com.h2database:h2:2.3.232")
 
 }
 tasks.test {
