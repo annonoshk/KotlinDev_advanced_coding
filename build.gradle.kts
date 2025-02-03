@@ -17,7 +17,8 @@ repositories {
 }
 
 dependencies {
-   // implementation("androidx.constraintlayout:constraintlayout-core:1.1.0")
+   // implementation("androidx.test.espresso:espresso-core:3.6.1")
+    // implementation("androidx.constraintlayout:constraintlayout-core:1.1.0")
     val koinVersion = "4.0.1"
     val ktorClientVersion = "3.0.3"
     val ktorVersion = "3.0.3"
@@ -79,6 +80,9 @@ dependencies {
 
     // Include the database driver you need, for example, H2
     implementation("com.h2database:h2:2.3.232")
+    // https://mvnrepository.com/artifact/commons-codec/commons-codec
+    implementation("commons-codec:commons-codec:1.18.0")
+    
 
 }
 tasks.test {
