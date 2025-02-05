@@ -61,8 +61,8 @@ fun main() {
     val keyPair = generateKeyPair2()
 
     val inputFile = File("${absolutePath}input.txt")
-    val encryptedFile = File("${absolutePath}encrypted.bin")
-    val decryptedFile = File("${absolutePath}decrypted.txt")
+    val encryptedFile = File("${absolutePath}encryptedRsa.bin")
+    val decryptedFile = File("${absolutePath}decryptedRsa.txt")
 
     // Encrypt the input file using the public key
     encryptFile(inputFile, encryptedFile, keyPair.public.encoded)
