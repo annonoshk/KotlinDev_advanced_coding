@@ -1,4 +1,4 @@
-package Interface
+package interfaces
 
 interface shape {
     val angles: Int
