@@ -17,7 +17,8 @@ repositories {
 }
 
 dependencies {
-   // implementation("androidx.test.espresso:espresso-core:3.6.1")
+   //implementation("com.google.firebase:protolite-well-known-types:18.0.0")
+    // implementation("androidx.test.espresso:espresso-core:3.6.1")
     // implementation("androidx.constraintlayout:constraintlayout-core:1.1.0")
     val koinVersion = "4.0.1"
     val ktorClientVersion = "3.0.3"
@@ -82,7 +83,8 @@ dependencies {
     implementation("com.h2database:h2:2.3.232")
     // https://mvnrepository.com/artifact/commons-codec/commons-codec
     implementation("commons-codec:commons-codec:1.18.0")
-    
+    implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.6.1")
+
 
 }
 tasks.test {
