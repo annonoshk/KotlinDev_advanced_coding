@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-   //implementation("com.google.firebase:protolite-well-known-types:18.0.0")
+    //implementation("com.google.firebase:protolite-well-known-types:18.0.0")
     // implementation("androidx.test.espresso:espresso-core:3.6.1")
     // implementation("androidx.constraintlayout:constraintlayout-core:1.1.0")
     val koinVersion = "4.0.1"
@@ -27,7 +27,7 @@ dependencies {
     testImplementation(kotlin("test"))
     implementation(kotlin("test"))
     testImplementation("io.mockk:mockk:1.13.14")
-    testImplementation ("org.jetbrains.kotlin:kotlin-test:1.5.31")
+    testImplementation("org.jetbrains.kotlin:kotlin-test:1.5.31")
     implementation("org.jetbrains.kotlin:kotlin-reflect:2.1.0")
     //runtimeOnly("com.h2database:h2:x.y.zzz")
     // latest version you can find https://firebase.google.com/docs/android/android-play-services
@@ -42,7 +42,7 @@ dependencies {
 
     implementation("org.jetbrains.kotlin:kotlin-reflect:2.1.0")
     implementation("org.jetbrains.kotlinx:kotlinx-cli:0.3.6")
-    implementation ("ch.qos.logback:logback-classic:1.5.16")
+    implementation("ch.qos.logback:logback-classic:1.5.16")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0")
 
     // Add the dependency for the Realtime Database library
@@ -91,13 +91,14 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 
-    testLogging  {
-        events ("passed", "skipped", "failed")
+    testLogging {
+        events("passed", "skipped", "failed")
     }
 }
 
 kotlin {
     jvmToolchain(21)
+
 }
 
 // SQLDelight Configuration

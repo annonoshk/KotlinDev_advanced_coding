@@ -48,7 +48,7 @@ Following are some examples of the ISO 8601 date-time representation:
 
 
  The ISO 8601 duration representation
-Time duration is represented as P<n>Y<n>M<n>DT<n>H<n>M<n>S, where P denotes that this string represents time duration,
+Time duration is represented as P<n>Y<n>DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDM<n>DT<n>H<n>M<n>S, where P denotes that this string represents time duration,
 Y denotes years, M months, D days, T is the days-time divider, H denotes hours,
 the M after T denotes minutes, and S – seconds. <n> denotes the value of the time element that follows it. For example:
 
