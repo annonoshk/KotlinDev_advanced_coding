@@ -20,7 +20,7 @@ dependencies {
     //implementation("com.google.firebase:protolite-well-known-types:18.0.0")
     // implementation("androidx.test.espresso:espresso-core:3.6.1")
     // implementation("androidx.constraintlayout:constraintlayout-core:1.1.0")
-    val koinVersion = "4.0.1"
+    val koinVersion = "4.0.2"
     val ktorClientVersion = "3.0.3"
     val ktorVersion = "3.0.3"
     implementation("org.junit.jupiter:junit-jupiter:5.11.4")
