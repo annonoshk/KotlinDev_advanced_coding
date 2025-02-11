@@ -1,6 +1,8 @@
 plugins {
     kotlin("jvm") version "2.1.0"
-    application
+    id("com.google.devtools.ksp") version "2.1.10-1.0.29"
+
+    //application
     // SQLDelight Plugin
     //kotlin("plugin.serialization") version "2.1.0"
     id("app.cash.sqldelight") version "2.0.2"
@@ -23,6 +25,9 @@ dependencies {
     val koinVersion = "4.0.2"
     val ktorClientVersion = "3.0.3"
     val ktorVersion = "3.0.3"
+
+    val koinKspVersion = "2.0.0-RC1"
+
     implementation("org.junit.jupiter:junit-jupiter:5.11.4")
     testImplementation(kotlin("test"))
     implementation(kotlin("test"))
@@ -39,7 +44,11 @@ dependencies {
     testImplementation(kotlin("test"))
 
     implementation("io.insert-koin:koin-core:$koinVersion")
-
+    /*    implementation("io.insert-koin:koin-annotations:$koinKspVersion") // Annotations
+        ksp("io.insert-koin:koin-ksp-compiler:$koinKspVersion") // Koin KSP
+        implementation("io.insert-koin:koin-core:$koinVersion")
+        implementation("io.insert-koin:koin-test:${koinVersion}")
+        implementation("io.insert-koin:koin-android:${koinVersion}")*/
     implementation("org.jetbrains.kotlin:kotlin-reflect:2.1.0")
     implementation("org.jetbrains.kotlinx:kotlinx-cli:0.3.6")
     implementation("ch.qos.logback:logback-classic:1.5.16")
@@ -84,7 +93,7 @@ dependencies {
     // https://mvnrepository.com/artifact/commons-codec/commons-codec
     implementation("commons-codec:commons-codec:1.18.0")
     implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.6.1")
-    implementation(kotlin("stdlib")) // For only DSL?? 
+    implementation(kotlin("stdlib")) // For only DSL??
 
 
 }
@@ -117,3 +126,8 @@ buildscript {
         classpath("org.jetbrains.dokka:dokka-base:2.0.0")
     }
 }
+
+sourceSets.main {
+    java.srcDirs("build/generated/ksp/main/kotlin")
+}
+
