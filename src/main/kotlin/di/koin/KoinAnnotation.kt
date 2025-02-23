@@ -1,3 +1,4 @@
+/*
 package di.koin
 
 import org.koin.core.annotation.Named
@@ -84,6 +85,7 @@ fun main() {
 
 // or
 
+*/
 /*
 fun main() {
     startKoin {
@@ -92,7 +94,8 @@ fun main() {
         )
     }
 }
-*/
+*//*
+
 
 @Module
 class MyModule
@@ -105,4 +108,4 @@ class MyModule {
 
     @Single
     fun myComponent(myDependency: MyDependency) = MyComponent(myDependency)
-}
+}*/

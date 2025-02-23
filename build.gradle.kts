@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.1.0"
+    kotlin("jvm") version "2.1.10"
     id("com.google.devtools.ksp") version "2.1.10-1.0.29"
 
     //application
@@ -59,7 +59,7 @@ dependencies {
     // implementation("com.google.firebase:firebase-database-ktx")
     // Add moshi for Json
     implementation("com.squareup.moshi:moshi-kotlin:1.15.2")
-    implementation("io.github.khubaibkhan4:mediaplayer-kmp:2.0.5")
+    //implementation("io.github.khubaibkhan4:mediaplayer-kmp:2.0.5")
     implementation("io.github.microutils:kotlin-logging-jvm:3.0.4")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
     implementation("com.squareup.retrofit2:retrofit:(insert latest version)")
